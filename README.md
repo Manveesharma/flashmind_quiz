@@ -44,109 +44,12 @@ It fetches real-time questions from the [Open Trivia Database](https://opentdb.c
 ## 🚀 Quick Start
 
 ### Prerequisites
-- Python 3.8 or higher
+- Python **3.8+**
 - Internet connection (for fetching questions)
 
-### Installation
-1. Clone the repository:
-   ```bash
-   git clone https://github.com/Manveesharma/flashmind.git
-   cd flashmind
-   ```
+### 📦 Required Dependencies
 
-2. Install dependencies:
-   ```bash
-   pip install -r requirements.txt
-   ```
-   > 💡 Note: If you don't want voice features, you can skip installing `pyttsx3`.
+Install the required modules:
 
-### Running the Quiz
 ```bash
-python Quiz.py
-```
-
----
-
-## 🎮 How to Play
-1. **Start the Quiz**: Run the script and follow the on-screen instructions.
-2. **Answer Questions**: Type the letter corresponding to your answer (A, B, C, or D).
-3. **Earn Points**:
-   - Base points for correct answers
-   - ⚡ Speed bonus for quick responses
-   - 🔥 Combo bonus for consecutive correct answers
-4. **Track Progress**: View your score, accuracy, and difficulty level after each question.
-5. **Review Mistakes**: Wrong answers are saved for later review.
-
----
-
-## ⚙️ Configuration
-You can customize your quiz experience by modifying the following in `Quiz.py`:
-
-```python
-# Quiz settings
-TOTAL_QUESTIONS = 10  # Number of questions per quiz
-ENABLE_VOICE = True   # Set to False to disable voice feedback
-DIFFICULTY = 'medium' # Starting difficulty (easy, medium, hard, or random)
-CATEGORY = 'general'  # Quiz category (see categories in the code)
-```
-
----
-
-## 📊 Performance Metrics
-The app tracks various metrics that you can find in `flashmind_mem.json`:
-- Best score
-- Average response time
-- Accuracy percentage
-- Total questions answered
-- Wrong answers with correct solutions
-
----
-
-## 🤝 Contributing
-Contributions are welcome! Here's how you can help:
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-Please read [CONTRIBUTING.md](CONTRIBUTING.md) for details on our code of conduct.
-
----
-
-## 📝 License
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
----
-
-## 🙏 Acknowledgments
-- [OpenTDB](https://opentdb.com/) for the free trivia API
-- All contributors who have helped improve this project
-
----
-
-## 🧠 Demo (Console)
-```
-🎯 FlashMind AI — Adaptive Quiz (v3.0)
-------------------------------------
-🏆 Best Score: 0  |  🔥 Streak: 0
-
-Question 1/10 [Medium]
-What is the capital of France?
-A) London
-B) Paris
-C) Berlin
-D) Madrid
-
-Your answer (A/B/C/D): B
-✅ Correct! +10 points (1.2s)
-```
-
----
-
-## 📧 Contact
-For questions or feedback, please open an issue or contact [Your Email].
-
-<div align="center">
-  Made with ❤️ by [Your Name]
-</div>
+pip install requests pyttsx3
