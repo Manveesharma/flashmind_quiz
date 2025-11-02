@@ -1,28 +1,40 @@
-# 🌟 FlashMind AI v3 — Smart Learning Quiz  
+<!-- ================================================== -->
+<!-- 🎯 FlashMind AI — Smart Adaptive Quiz CLI App -->
+<!-- ================================================== -->
 
-**FlashMind AI** is an adaptive, memory-powered quiz app that helps users learn smarter, not harder.
-Originally a Python CLI app, it’s now available as a **browser-based interactive game** using **Streamlit** — play directly online! 🧠⚡
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white" alt="Python"/>
+  <img src="https://img.shields.io/badge/CLI-App-yellow?logo=gnubash&logoColor=white" alt="CLI App"/>
+  <img src="https://img.shields.io/badge/Open%20Trivia%20API-Live-brightgreen?logo=databricks&logoColor=white" alt="Trivia API"/>
+  <img src="https://img.shields.io/badge/AI-Voice%20Enabled-orange?logo=openai&logoColor=white" alt="Voice Enabled"/>
+  <img src="https://img.shields.io/github/license/Manveesharma/flashmind?color=purple" alt="License"/>
+</p>
+
+<h1 align="center">🌟 FlashMind AI v3 — Adaptive Smart Quiz CLI ⚡</h1>
+
+<p align="center">
+  <i>Test your mind. Learn smarter. Level up faster. 🧠</i><br>
+  <b>Interactive | Voice-Enabled | AI-Adaptive Difficulty | Open Trivia Integration</b>
+</p>
 
 ---
 
-## 🎮 Features  
+## 🧩 Overview
+**FlashMind AI** is a fast, voice-assisted, adaptive **command-line quiz app** built in Python.  
+It fetches real-time questions from the [Open Trivia Database](https://opentdb.com), tracks your best score, and automatically adjusts difficulty based on your performance — just like an AI coach!  
 
-✅ **Adaptive Difficulty:** Questions auto-adjust based on your skill score.  
-✅ **AI Memory Reinforcement:** Remembers your weak questions and revisits them next session.  
-✅ **Smart Scoring System:** Considers speed, accuracy, and consistency.  
-✅ **Voice Feedback (Offline):** Optional speech encouragement via `pyttsx3`.  
-✅ **Gamified Rewards:** Combo streaks, speed bonuses, and motivational feedback.  
-✅ **Cross-Platform:** Runs on terminal or browser — no installs needed online.
+> 🎧 Optional voice feedback via `pyttsx3` gives encouragement while you play.  
+> 🧠 Includes adaptive bonuses: *Speed Bonus* ⚡, *Combo Bonus* 🔥, and Smart Difficulty Scaling 🤖.
 
 ---
 
-## 🧑‍💻 Run Locally  
+## ✨ Features
+✅ **Smart Difficulty Scaling** — The quiz adjusts between *easy → medium → hard* based on accuracy & response time.  
+✅ **Voice Feedback (TTS)** — Encouragement via `pyttsx3` (“Well done!”, “Keep going!”).  
+✅ **Memory Save** — Stores best score and wrong answers in `flashmind_mem.json`.  
+✅ **Speed & Combo Bonuses** — Fast responses or streaks earn bonus points.  
+✅ **Lightweight** — <50 lines of Python, no external UI needed.  
 
-### 🔧 Prerequisites  
-Make sure you have **Python 3.8+** installed and the required packages:
+---
 
-```bash
-pip install streamlit requests pyttsx3
-
-# flashmind
-# flashmind_quiz
+## 🧠 Demo (Console)
