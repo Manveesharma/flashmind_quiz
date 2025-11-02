@@ -25,3 +25,4 @@ Make sure you have **Python 3.8+** installed and the required packages:
 pip install streamlit requests pyttsx3
 
 # flashmind
+# flashmind_quiz
